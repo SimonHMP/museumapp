@@ -1,0 +1,75 @@
+
+
+body {
+    background: gray;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+  }
+ 
+main {
+    background:cyan;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 2rem 0;
+  }
+
+.comment  {
+  display: inline-block;
+  width: 300px;
+  border: 10px solid green;
+  padding: 50px;
+  margin: 10px;
+  align-content: right;
+}
+
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    
+}
+input {
+    display: inline-block;
+    text-align: left;
+    
+}
+.textareaa{
+    /* margin-left:-17%; */
+}
+
+/*
+.formSection {
+
+  text-align: center;
+}
+
+*/
+button {
+  display: inline-block;
+  
+  text-align: right;
+}
+/*
+input {
+  display: inline-block;
+  float: left;
+}
+
+ 
+  /*
+h1 {
+    margin: 3rem 1rem 6rem 1rem;
+  }
+
+
+
+
+.img {
+        
+    width: auto%;
+    margin: 29px;
+    /*
+    
+}
