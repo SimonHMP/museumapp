@@ -5,6 +5,8 @@
 <head>
     <title>Museum Guide</title>
     <link rel="stylesheet" type="text/css" media="screen" href="detail.css" />
+    <script src="detail-page.js"></script>
+
 </head>
 <body>
    <main>
@@ -16,37 +18,32 @@
      <section>
 
         <h2>Comments</h2>
-        <section class = "comment">
+        <section id="comments" class = "comment">
             <h3>Arien said:</h3>
             <p>"This is definitely one of my favorites</p>
 
         </section>
      </section>
 
-
+  
+     </section>
         <form onsubmit="submitComment(); return false">
 
-
+            
             <div class="formSection">
-                <label class="textareaa" for="name">Name: </label>
-
-
-
+                <label class="textAreaa" for="name">Name: </label>
             </div>
             <div>
-                    <input class="inputboxes" type="text" id="name">
+                    <textarea class="inputboxes" type="text" id="name"></textarea>
             </div>
 
             <div class="formSection">
-                <label class="textareaa" for="msg">Message:</label>
+                <label class="textAreaa" for="msg">Message:</label>
                 
-
-
-
             </div>
 
             <div>
-                    <textarea class="inputboxes" id="msg"></textarea>
+                    <textarea class="inputboxes" type="text" id="msg"></textarea>
             </div>
 
             <div class="inputboxes">

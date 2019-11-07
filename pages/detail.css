@@ -15,14 +15,24 @@ main {
   }
 
 .comment  {
+  
+  display: inline-block;
+  
+  width: 100px;
+  margin: 10px;
+  align-content: center;
+
+}
+
+#comments {
   display: inline-block;
   width: 300px;
   border: 10px solid green;
   padding: 50px;
   margin: 10px;
-  align-content: right;
-}
+  align-content: left;
 
+}
 
 label {
     display: inline-block;
@@ -35,9 +45,9 @@ input {
     text-align: left;
     
 }
-.textareaa{
+
     /* margin-left:-17%; */
-}
+
 
 /*
 .formSection {
