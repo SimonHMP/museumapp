@@ -329,14 +329,20 @@ const data = {
 
 const paintings = data.artObjects
 
+
 for (i=0; i < paintings.length; i++) {
     const currentPainting = paintings[i]
+
+    if (paintings[i].webImage.width > 1500 && paintings[i].principalOrFirstMaker !== "Gerard van Honthorst" && stringChecker(paintings[i].longTitle)) {
     displayPainting(currentPainting)
+} 
+
 }
 
 
+
     
-function displayPainting(paintingLala) {
+function displayPainting(paintingOne) {
     const painting = paintings[i]
 
     //console.log(painting.webImage.url);
@@ -358,5 +364,18 @@ function displayPainting(paintingLala) {
     
     }
    
-
+function stringChecker (museumString) {
+    str = museumString.replace(/[^0-9]/g,'');
+    str = str.slice(0,4)
+    str = Number(str)
+    
+    console.log(str)
+          if (str >= 1800) {
+            return false
+        } else {
+          return true
+                  
+          }
+  
+      }
 
